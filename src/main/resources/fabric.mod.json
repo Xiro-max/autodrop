@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "auto_drop_item",
+  "version": "${version}",
+  "name": "Auto Drop Item",
+  "description": "Automatically drops a chosen item from your inventory.",
+  "authors": ["ChatGPT"],
+  "environment": "client",
+  "entrypoints": {
+    "client": ["dev.autodrop.AutoDropItemClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
